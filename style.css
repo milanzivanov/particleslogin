@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 16px sans-serif;
+  color: #333;
+}
+
+#particles-js {
+  background: indianred;
+  height: 100vh;
+}
+
+#login {
+  background: #fff;
+  opacity: 0.8;
+  padding: 15px;
+  border: 2px solid #ccc;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+#login input[type="text"], #login input[type="password"] {
+  padding: 7px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+label {
+  display: block;
+  padding: 0 0 5px 0;
+}
+
+#login input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  transition: background 0.3s ease-in-out;
+  background: indianred;
+}
+
+#login input[type="submit"]:hover {
+  background: orange;
+  color: #333;
+}
